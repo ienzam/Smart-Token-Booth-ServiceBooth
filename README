@@ -1,0 +1,32 @@
+SMART TOKEN BOOTH
+
+Smart Token Booth system is a system to remove the queue from the places
+where users need to stand in a line for any service.
+
+The full solution needs a computer to act as server and each service
+booth needs a small device to communicate with the server. Token counter
+will also need to have a small device.
+
+The most interesting and important feature is the whole system does not
+need any wiring. All communications with server is done via radio
+transmission. And it's easy to configure :-).
+
+This is the service booth part (which resides on a microcontroller).
+The code is written for AVR GCC compiler compatible.
+
+This file needs three files - lcd.c, lcd.h and myutils.h. They are not free
+and not distributable.
+To download the files you can go the following link -
+http://www.extremeelectronics.co.in/downloads/xBoardMINIv2/xAPI_xBoardMINIv2.zip
+It is a zip archive. Inside the zip folder you will find the codes in
+/xAPI_xBoardMINIv2/LCD
+
+To compile the project and create hex file: make
+To deploy with usbasp programmer: make deploy
+To clean up: make clean
+
+Tested on Linux platform (Ubuntu 11.04).
+
+The project is under MIT License. You should have gotten a copy of
+the license. If you haven't, you can get a copy from -
+http://www.opensource.org/licenses/mit-license.php

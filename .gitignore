@@ -1,0 +1,8 @@
+*.pro.user
+lcd.c
+lcd.h
+myutils.h
+lcd.o
+booth.o
+booth.elf
+booth.hex
